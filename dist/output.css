@@ -686,16 +686,8 @@ video {
   width: 1.5rem;
 }
 
-.w-\[30\%\] {
-  width: 30%;
-}
-
 .w-\[5px\] {
   width: 5px;
-}
-
-.w-\[70\%\] {
-  width: 70%;
 }
 
 .w-full {
@@ -1130,6 +1122,10 @@ body {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:justify-center {
     justify-content: center;
   }
@@ -1299,8 +1295,16 @@ body {
 }
 
 @media (min-width: 1110px) {
+  .xl\:w-\[30\%\] {
+    width: 30%;
+  }
+
   .xl\:w-\[50\%\] {
     width: 50%;
+  }
+
+  .xl\:w-\[70\%\] {
+    width: 70%;
   }
 
   .xl\:flex-nowrap {
